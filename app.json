@@ -1,7 +1,7 @@
 {
-  "name": "kyneBot",
-  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSt6w-OsvARhJATiKlZ_PkcPWCpjFq_eUk1qBCs7L4Y_7Cj5b6S&usqp=CAU",
-  "description": "Let kyne run through your veins!",
+  "name": "GroupManagerBot",
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ6P6cy8KLDK_jR61-a5oizhEnFD7Wkwdy2X5l8IGfLqKyO8S5F&usqp=CAU",
+  "description": "GroupManagerBot is here to help!!",
   "keywords": [
     "telegram",
     "best",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/obsq/kyneBot",
+  "repository": "https://github.com/obsq/GroupManagerBot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -20,12 +20,12 @@
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
-      "value": "724495167"
+      "description": "Your id",
+      "value": ""
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "obsquriel"
+      "value": ""
     },
   
     "URL": {
@@ -42,7 +42,7 @@
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "724495167 1042551884"
+      "value": ""
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
